@@ -1,0 +1,67 @@
+.card{
+    width: 300px;
+    margin-bottom: 50px;
+}
+
+.card-img{
+    height: 170px;
+    border-radius: 0%;
+}
+
+.card-body{
+    background-color: #274c77;
+    color: #e7ecef;
+}
+
+.btn-card{
+    background-color: #6096ba;
+    color: #e7ecef;
+}
+
+.body-color{
+    background-color: #e7ecef;
+}
+
+h1{
+    color: #274c77;
+    font-weight: 700;
+}
+
+h2, h3, h4, h5, h6{
+    color: #274c77;
+}
+
+.arrow-img{
+    animation: float 2s ease-in-out infinite;
+}
+
+a{
+    text-decoration: none;
+}
+
+.bg-links{
+    background-color: #274c77;
+    color: #e7ecef;
+}
+
+@keyframes float {
+	0% {
+		/* box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); */
+		transform: translatey(0px);
+	}
+	50% {
+		/* box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2); */
+		transform: translatey(-20px);
+	}
+	100% {
+		/* box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); */
+		transform: translatey(0px);
+	}
+}
+
+/* 
+Paleta del oscuro a mas claro
+color1 #274c77;
+color2 #6096ba;
+color3 #e7ecef; 
+*/
